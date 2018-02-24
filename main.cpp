@@ -31,10 +31,11 @@ do
     else
     {
         cout<<"You'll need a bigger list!"<<endl;
+        break;
     }
  }
 
-} while(input != 'q' && input != 'Q');
+} while(input != 'q' && input != 'Q' );
 
  
   return 0;
