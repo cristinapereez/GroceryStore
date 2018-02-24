@@ -9,7 +9,9 @@ int main()
   int numItems = 0;
   char input;
   string item;
-  const int LIST_SIZE = 5;
+  
+//  const int LIST_SIZE = 5;
+  
 
 do
 {
@@ -22,16 +24,18 @@ do
   cin>>input;
  if( input == 'a' || input == 'A')
  {
-    if( numItems < LIST_SIZE )
+     cout<<"What is the item?"<<endl;
+     cin>>item;
+     int len = item.length();
+    if( numItems < 5 )
     {
-        cout<<"What is the item?"<<endl;
-        cin>>list[numItems];
-        numItems++;
+        list[numItems] = item;
+        numItems++;       
     }
     else
     {
         cout<<"You'll need a bigger list!"<<endl;
-        break;
+        
     }
  }
 
