@@ -44,11 +44,11 @@ do
 if( input == 'q' || input == 'Q')
 {
    cout<<"==ITEMS TO BUY==";
-   cout<<"\n 1 "<<list[0];
-   cout<<"\n 2 "<<list[1];
-   cout<<"\n 3 "<<list[2];
-   cout<<"\n 4 "<<list[3];
-   cout<<"\n 5 "<<list[4]<<endl;
+   cout<<"\n1 "<<list[0];
+   cout<<"\n2 "<<list[1];
+   cout<<"\n3 "<<list[2];
+   cout<<"\n4 "<<list[3];
+   cout<<"\n5 "<<list[4]<<endl;
 } 
   return 0;
 }
